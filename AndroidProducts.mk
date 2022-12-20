@@ -1,4 +1,3 @@
-
 #
 # Copyright (C) 2021 The LineageOS Project
 #
@@ -6,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_vili.mk
+    $(LOCAL_DIR)/arrow_vili.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_vili-user \
-    lineage_vili-userdebug \
-    lineage_vili-eng
+    arrow_vili-user \
+    arrow_vili-userdebug \
+    arrow_vili-eng
