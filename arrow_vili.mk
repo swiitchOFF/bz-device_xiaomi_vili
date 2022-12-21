@@ -17,6 +17,10 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# ArrowOS additions
+DEVICE_MAINTAINER := Paul
+ARROW_GAPPS := true
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := vili
 PRODUCT_MANUFACTURER := Xiaomi
