@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_vili.mk
+    $(LOCAL_DIR)/evolution_vili.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_vili-user \
-    arrow_vili-userdebug \
-    arrow_vili-eng
+    evolution_vili-user \
+    evolution_vili-userdebug \
+    evolution_vili-eng
