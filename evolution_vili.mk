@@ -17,6 +17,9 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Rom additions
+TARGET_USES_MINI_GAPPS := true
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := vili
 PRODUCT_MANUFACTURER := Xiaomi
